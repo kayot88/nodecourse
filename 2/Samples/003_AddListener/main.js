@@ -20,7 +20,7 @@ emt.once('click', print);
 
 // Вызов обработчиков 
 emt.emit('click');
-emt.emit('click');
+// emt.emit('click');
 
 
 

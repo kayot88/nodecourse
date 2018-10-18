@@ -11,6 +11,7 @@ ReadFile.prototype = new evt.EventEmitter();
 
 // fileName - имя файла
 // callback - функция, которая  вызовется после того как данные будут прочитаны
+
 ReadFile.prototype.readDataFromFile = function(path, callback){
     this.file = path;
     if(typeof callback == 'function'){

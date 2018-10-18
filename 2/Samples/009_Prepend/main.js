@@ -7,6 +7,7 @@ emt.on('myEvent', function(){
     console.log('test string 1');
 });
 // Метод prependListener добавляет подписчика в начало цепочки
+
 emt.prependListener('myEvent', function(){
     console.log('test string 2');
 });
