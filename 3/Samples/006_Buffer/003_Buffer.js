@@ -4,7 +4,6 @@ var arr1 = new Uint16Array(11);
 const buf1 = Buffer.from(arr1.buffer);
 var arr2 = new Uint16Array(4);
 const buf2 = Buffer.from(arr2.buffer); 
-
 var arr4 = new Uint16Array(10);
 const buf4 = Buffer.from(arr4.buffer);
 

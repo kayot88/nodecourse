@@ -1,5 +1,5 @@
 var fs = require('fs');
- 
+ fs.
 console.log("Going to open file!");
 
 // открыть файл
@@ -66,3 +66,4 @@ fs.open('demofile.txt', 'w+', function (err, fd) {
         })
     }
 }); 
+
