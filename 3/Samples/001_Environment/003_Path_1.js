@@ -4,6 +4,8 @@ var path = require('path');
 // С помощью метода basename можно получить имя файла с расширением
 var filename = path.basename(__filename);
 console.log('Current file: ', filename);
+// console.log(path);
+
 
 // path.resolve - метод преобразующий относительный путь в абсолютный
 console.log(path.resolve('./test'));
