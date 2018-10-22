@@ -23,6 +23,7 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "gromovmodule": "^1.0.1"
   },
   "keywords": [],
