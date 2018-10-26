@@ -1,7 +1,6 @@
 function CreateConnection(){
     this.connect = () =>{
         console.log('Connection established!');
-        
     }
 }
 

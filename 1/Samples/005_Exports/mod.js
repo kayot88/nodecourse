@@ -3,7 +3,7 @@
 var x = 10;
 
 function test(){
-    console.log(`Test function, number = , ${x}`);
+    console.log('Test function, number = ', x);
 };
 
 // для того чтобы сделать переменные доступны в другом модуле, необходимо добавить их в обьект exports
@@ -11,6 +11,5 @@ function test(){
 
 exports.number = x;
 exports.func = test;
-
 
 // exports = x;  // Error
