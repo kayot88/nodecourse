@@ -12,4 +12,3 @@ var emitter = new evt.EventEmitter();
 // Метод emit предназначен для генерации события 
  emitter.emit('create');
 
-

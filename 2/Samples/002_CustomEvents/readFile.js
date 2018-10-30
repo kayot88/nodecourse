@@ -15,7 +15,7 @@ ReadFile.prototype = new evt.EventEmitter();
 ReadFile.prototype.readDataFromFile = function(path, callback){
     this.file = path;
     if(typeof callback == 'function'){
-        this.on('readData', callback)
+        this.on('f', callback)
     }
     this._read();
 };
@@ -23,9 +23,10 @@ ReadFile.prototype.readDataFromFile = function(path, callback){
 ReadFile.prototype._read = function(){
     console.log('Loading...');
     var someDataFromFile = 'Text text text';    // данные считанные из файла
-    this.emit('readData', someDataFromFile);    
+    this.emit('r', someDataFromFile);    
     console.log('Data was read.');
 }
+    
 
 module.exports.Reader = ReadFile;
 
